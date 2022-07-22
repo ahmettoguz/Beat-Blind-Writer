@@ -1,6 +1,6 @@
 # Beat-Blind-Writer
 
-## Python applicaiton, to beat my Blind writer typing application 
+## Python applicaiton, to beat my Blind writer typing application with bot
 
 #### Used Technologies
 * Python, Selenium
