@@ -7,8 +7,10 @@ from time import sleep
 from selenium.webdriver.common.by import By
 
 
-driver_path = 'C:\\Users\\lenovo\\Desktop\\ahmet\\Python\\CromeDriver\\chromedriver.exe'
-serv_obj = Service(driver_path)
+# insert chrome driver path into there to be able to run program. chromedriver.exe is the crome driver in the project
+# driver_path = 'C:\\Users\\...\\Desktop\\...\\....\\...\\chromedriver.exe' is the example
+# driver_path = ''
+# serv_obj = Service(driver_path)
 
 # this option code is needed to disable info part
 ch_options = webdriver.ChromeOptions()
@@ -18,7 +20,7 @@ ch_options.add_experimental_option(
 driver = webdriver.Chrome(service=serv_obj, options=ch_options)
 
 driver.maximize_window()
-# insert blind Writer Page into there to be able to run program
+# insert blind Writer Page path into there to be able to run program
 # driver.get('')
 driver.implicitly_wait(10)
 
